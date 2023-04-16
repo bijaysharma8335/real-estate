@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 
-import { RiMapPinLine, RiArrowDownSLine, RiArrowUpLine, RiArrowUpSLine } from "react-icons/ri";
+import { RiMapPinLine, RiArrowDownSLine, RiArrowUpSLine } from "react-icons/ri";
 
 import { HouseContext } from "./HouseContext";
 import { Menu } from "@headlessui/react";
@@ -25,8 +25,8 @@ const CountryDropdown = () => {
                 ) : (
                     <RiArrowDownSLine className="dropdown-icon-secondary" />
                 )}
-            </Menu.Button> 
-            <Menu.Items className='dropdown-menu'>
+            </Menu.Button>
+            <Menu.Items className="dropdown-menu">
                 {countries.map((country, index) => {
                     return (
                         <Menu.Item
