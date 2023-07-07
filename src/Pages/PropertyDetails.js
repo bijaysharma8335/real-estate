@@ -91,7 +91,7 @@ const PropertyDetails = () => {
                             ></textarea>
 
                             <div className="flex gap-x-2 ">
-                                <button className="bg-violet-700 hover:bg-violet-800 text-white rounded  p-2 text-sm w-full transition">
+                                <button className="bg-violet-700 hover:bg-violet-800 text-white rounded  p-2 text-sm w-full transition" >
                                     Send Message
                                 </button>
                                 <button className="border border-violet-700 text-violet-700 hover:border-violet-500 hover:text-violet-500 rounded p-2 text-sm w-full transition">
